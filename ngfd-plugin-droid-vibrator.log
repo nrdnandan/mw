@@ -1,0 +1,184 @@
+Cloning into 'ngfd-plugin-droid-vibrator'...
+Already up-to-date.
+
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.G8WhUg
++ umask 022
++ cd /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator
++ LANG=C
++ export LANG
++ unset DISPLAY
++ CFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CFLAGS
++ CXXFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CXXFLAGS
++ FFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -I/usr/lib/gfortran/modules'
++ export FFLAGS
++ LD_AS_NEEDED=1
++ export LD_AS_NEEDED
++ CFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CFLAGS
++ CXXFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CXXFLAGS
++ FFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -I/usr/lib/gfortran/modules'
++ export FFLAGS
++ /usr/bin/cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_LIBDIR:PATH=/usr/lib -DINCLUDE_INSTALL_DIR:PATH=/usr/include -DLIB_INSTALL_DIR:PATH=/usr/lib -DSYSCONF_INSTALL_DIR:PATH=/etc -DSHARE_INSTALL_PREFIX:PATH=/usr/share -DCMAKE_SKIP_RPATH:BOOL=ON -DBUILD_SHARED_LIBS:BOOL=ON
+-- The C compiler identification is GNU 4.6.4
+-- The CXX compiler identification is GNU 4.6.4
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Checking for module 'glib-2.0'
+--   Found glib-2.0, version 2.48.0
+-- Checking for module 'ngf-plugin'
+--   Found ngf-plugin, version 0.92
+-- Checking for module 'android-headers'
+--   Found android-headers, version 5.1.1
+-- Checking for module 'libvibrator'
+--   Found libvibrator, version 0.1.0
+-- Checking for module 'libhardware'
+--   Found libhardware, version 0.1.0
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_INSTALL_LIBDIR
+    INCLUDE_INSTALL_DIR
+    LIB_INSTALL_DIR
+    SHARE_INSTALL_PREFIX
+    SYSCONF_INSTALL_DIR
+
+
+-- Build files have been written to: /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator
++ make
+/usr/bin/cmake -H/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator -B/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+make -f CMakeFiles/ngfd_droid-vibrator.dir/build.make CMakeFiles/ngfd_droid-vibrator.dir/depend
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+cd /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles/ngfd_droid-vibrator.dir/DependInfo.cmake --color=
+Scanning dependencies of target ngfd_droid-vibrator
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+make -f CMakeFiles/ngfd_droid-vibrator.dir/build.make CMakeFiles/ngfd_droid-vibrator.dir/build
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+[ 50%] Building C object CMakeFiles/ngfd_droid-vibrator.dir/src/droid-vibrator.c.o
+/usr/bin/cc  -Dngfd_droid_vibrator_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/ngf -I/usr/lib/droid-devel/droid-headers  -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi  -fPIC   -o CMakeFiles/ngfd_droid-vibrator.dir/src/droid-vibrator.c.o   -c /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/src/droid-vibrator.c
+[100%] Linking C shared library libngfd_droid-vibrator.so
+/usr/bin/cmake -E cmake_link_script CMakeFiles/ngfd_droid-vibrator.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi   -shared -Wl,-soname,libngfd_droid-vibrator.so -o libngfd_droid-vibrator.so CMakeFiles/ngfd_droid-vibrator.dir/src/droid-vibrator.c.o -lhybris-common -lvibrator -lhardware 
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+[100%] Built target ngfd_droid-vibrator
+make[1]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+/usr/bin/cmake -E cmake_progress_start /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles 0
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.AWLyqu
++ umask 022
++ cd /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator
++ '[' /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot '!=' / ']'
++ rm -rf /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot
+++ dirname /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot
++ mkdir -p /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator
++ mkdir /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot
++ LANG=C
++ export LANG
++ unset DISPLAY
++ rm -rf /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot
++ /usr/bin/make DESTDIR=/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot INSTALL_ROOT=/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot install
+/usr/bin/cmake -H/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator -B/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+/usr/bin/make -f CMakeFiles/ngfd_droid-vibrator.dir/build.make CMakeFiles/ngfd_droid-vibrator.dir/depend
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+cd /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles/ngfd_droid-vibrator.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+/usr/bin/make -f CMakeFiles/ngfd_droid-vibrator.dir/build.make CMakeFiles/ngfd_droid-vibrator.dir/build
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+make[2]: Nothing to be done for `CMakeFiles/ngfd_droid-vibrator.dir/build'.
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+[100%] Built target ngfd_droid-vibrator
+make[1]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+/usr/bin/cmake -E cmake_progress_start /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/CMakeFiles 0
+/usr/bin/make -f CMakeFiles/Makefile2 preinstall
+make[1]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+make[1]: Nothing to be done for `preinstall'.
+make[1]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: ""
+-- Installing: /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot/usr/lib/ngf/libngfd_droid-vibrator.so
++ rm -f /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot/usr/share/info/dir
++ find /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot -regex '.*\.la$'
++ xargs rm -f --
++ find /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot -regex '.*\.a$'
++ xargs rm -f --
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/meego/brp-compress
++ /usr/lib/rpm/meego/brp-strip /usr/bin/strip
++ /usr/lib/rpm/meego/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/meego/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/brp-python-bytecompile
++ /usr/lib/rpm/meego/brp-python-hardlink
++ /usr/lib/rpm/meego/find-docs.sh /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot
++ /usr/lib/rpm/meego/brp-java-repack-jars
+Processing files: ngfd-plugin-droid-vibrator-0.91.1-1.armv7hl
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.tavGc2
++ umask 022
++ cd /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator
++ DOCDIR=/home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot/usr/share/doc/ngfd-plugin-droid-vibrator-0.91.1
++ export DOCDIR
++ /bin/mkdir -p /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot/usr/share/doc/ngfd-plugin-droid-vibrator-0.91.1
++ cp -pr README COPYING /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot/usr/share/doc/ngfd-plugin-droid-vibrator-0.91.1
++ exit 0
+Provides: libngfd_droid-vibrator.so
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh
+Requires(postun): /bin/sh
+Requires: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libhardware.so.2 libhybris-common.so.1 libvibrator.so.1 rtld(GNU_HASH)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/installroot
+warning: Could not canonicalize hostname: neerad-Satellite-L850
+Wrote: /home/neerad/mer/android/droid/hybris/mw/ngfd-plugin-droid-vibrator/RPMS/ngfd-plugin-droid-vibrator-0.91.1-1.armv7hl.rpm
+Spawning worker 0 with 46 pkgs
+Workers Finished
+Gathering worker results
+
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+connman not AVAILABLE 
+DBus call failed, falling back to libssu
+Loading repository data...
+Reading installed packages...
+Forcing installation of 'ngfd-plugin-droid-vibrator-0.91.1-1.armv7hl' from repository 'Plain RPM files cache'.
+There is an update candidate 'ngfd-plugin-droid-vibrator-0.91.1-10.2.2.jolla.armv7hl' for 'ngfd-plugin-droid-vibrator-0.91.1-1.armv7hl', but it does not match specified version, architecture, or repository.
+There is an update candidate for 'ngfd-plugin-droid-vibrator', but it is from different vendor. Use 'zypper install ngfd-plugin-droid-vibrator-0.91.1-10.2.2.jolla.armv7hl' to install this candidate.
+Resolving package dependencies...
+
+The following package is going to be reinstalled:
+  ngfd-plugin-droid-vibrator 
+
+1 package to reinstall.
+Overall download size: 17.2 KiB. No additional space will be used or freed after the operation.
+Continue? [y/n/?] (y): y
+Retrieving package ngfd-plugin-droid-vibrator-0.91.1-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             (1/1),  17.2 KiB ( 41.1 KiB unpacked)
+Retrieving package ngfd-plugin-droid-vibrator-0.91.1-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             (1/1),  17.2 KiB ( 41.1 KiB unpacked)
+Installing: ngfd-plugin-droid-vibrator-0.91.1-1 [....done]
+Additional rpm output:
+su: cannot set groups: Operation not permitted
+su: cannot set groups: Operation not permitted
+
+

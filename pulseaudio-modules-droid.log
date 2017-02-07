@@ -1,0 +1,1167 @@
+Cloning into 'pulseaudio-modules-droid'...
+Already up-to-date.
+
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.HKUrMY
++ umask 022
++ cd /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid
++ LANG=C
++ export LANG
++ unset DISPLAY
++ CFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CFLAGS
++ CXXFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CXXFLAGS
++ FFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -I/usr/lib/gfortran/modules'
++ export FFLAGS
++ LD_AS_NEEDED=1
++ export LD_AS_NEEDED
++ echo 8.0.47
++ . /usr/lib/droid-devel/hw-release.vars
+++ MER_HA_DEVICE=wt88047
+++ MER_HA_VENDOR=wingtech
+++ MER_HA_VERSION='0.0.6.201701292157 (armv7hl,unknown)'
+++ MER_HA_VERSION_ID=0.0.6.201701292157
+++ MER_HA_PRETTY_NAME='wt88047 0.0.6.201701292157 (armv7hl,unknown)'
+++ MER_HA_SAILFISH_BUILD=201701292157
+++ MER_HA_SAILFISH_FLAVOUR=unknown
+++ MER_HA_HOME_URL=https://sailfishos.org/
++ CFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CFLAGS
++ CXXFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi'
++ export CXXFLAGS
++ FFLAGS='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -I/usr/lib/gfortran/modules'
++ export FFLAGS
++ autoreconf -v --install --force
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+autoreconf: configure.ac: tracing
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+autoreconf: running: /usr/bin/autoconf --force
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+autoreconf: running: /usr/bin/autoheader --force
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:32: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+m4/attributes.m4:35: CC_CHECK_CFLAGS_SILENT is expanded from...
+m4/attributes.m4:49: CC_CHECK_CFLAGS is expanded from...
+configure.ac:32: the top level
+configure.ac:78: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:78: the top level
+configure.ac:94: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+configure.ac:94: the top level
+configure.ac:152: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+m4/tls.m4:1: CC_CHECK_TLS is expanded from...
+configure.ac:152: the top level
+configure.ac:154: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2590: _AC_COMPILE_IFELSE is expanded from...
+../../lib/autoconf/general.m4:2606: AC_COMPILE_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2031: AC_CACHE_VAL is expanded from...
+../../lib/autoconf/general.m4:2052: AC_CACHE_CHECK is expanded from...
+configure.ac:154: the top level
+configure.ac:18: installing './compile'
+configure.ac:58: installing './config.guess'
+configure.ac:58: installing './config.sub'
+configure.ac:5: installing './install-sh'
+configure.ac:5: installing './missing'
+/usr/share/automake-1.15/am/ltlibrary.am: warning: 'libdroid-util.la': linking libtool libraries using a non-POSIX
+/usr/share/automake-1.15/am/ltlibrary.am: archiver requires 'AM_PROG_AR' in 'configure.ac'
+src/common/Makefile.am:13:   while processing Libtool library 'libdroid-util.la'
+src/common/Makefile.am: installing './depcomp'
+/usr/share/automake-1.15/am/ltlibrary.am: warning: 'libdroid-sink.la': linking libtool libraries using a non-POSIX
+/usr/share/automake-1.15/am/ltlibrary.am: archiver requires 'AM_PROG_AR' in 'configure.ac'
+src/droid/Makefile.am:15:   while processing Libtool library 'libdroid-sink.la'
+/usr/share/automake-1.15/am/ltlibrary.am: warning: 'libdroid-source.la': linking libtool libraries using a non-POSIX
+/usr/share/automake-1.15/am/ltlibrary.am: archiver requires 'AM_PROG_AR' in 'configure.ac'
+src/droid/Makefile.am:15:   while processing Libtool library 'libdroid-source.la'
+/usr/share/automake-1.15/am/ltlibrary.am: warning: 'module-droid-card.la': linking libtool libraries using a non-POSIX
+/usr/share/automake-1.15/am/ltlibrary.am: archiver requires 'AM_PROG_AR' in 'configure.ac'
+src/droid/Makefile.am:15:   while processing Libtool library 'module-droid-card.la'
+/usr/share/automake-1.15/am/ltlibrary.am: warning: 'module-droid-keepalive.la': linking libtool libraries using a non-POSIX
+/usr/share/automake-1.15/am/ltlibrary.am: archiver requires 'AM_PROG_AR' in 'configure.ac'
+src/droid/Makefile.am:15:   while processing Libtool library 'module-droid-keepalive.la'
+/usr/share/automake-1.15/am/ltlibrary.am: warning: 'module-droid-sink.la': linking libtool libraries using a non-POSIX
+/usr/share/automake-1.15/am/ltlibrary.am: archiver requires 'AM_PROG_AR' in 'configure.ac'
+src/droid/Makefile.am:15:   while processing Libtool library 'module-droid-sink.la'
+/usr/share/automake-1.15/am/ltlibrary.am: warning: 'module-droid-source.la': linking libtool libraries using a non-POSIX
+/usr/share/automake-1.15/am/ltlibrary.am: archiver requires 'AM_PROG_AR' in 'configure.ac'
+src/droid/Makefile.am:15:   while processing Libtool library 'module-droid-source.la'
+autoreconf: Leaving directory `.'
++ ./configure --build=armv7l-unknown-linux-gnueabi --host=armv7l-unknown-linux-gnueabi --target=armv7hl-meego-linux-gnueabi --program-prefix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --disable-static --with-droid-device=wt88047
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for armv7l-unknown-linux-gnueabi-gcc... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for gcc option to accept ISO C99... -std=gnu99
+checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether gcc -std=gnu99 needs -traditional... no
+checking if gcc -std=gnu99 supports -Wall flag... yes
+checking if gcc -std=gnu99 supports -W flag... yes
+checking if gcc -std=gnu99 supports -Wextra flag... yes
+checking if gcc -std=gnu99 supports -pedantic flag... yes
+checking if gcc -std=gnu99 supports -pipe flag... yes
+checking if gcc -std=gnu99 supports -Wno-long-long flag... yes
+checking if gcc -std=gnu99 supports -Winline flag... yes
+checking if gcc -std=gnu99 supports -Wvla flag... yes
+checking if gcc -std=gnu99 supports -Wno-overlength-strings flag... yes
+checking if gcc -std=gnu99 supports -Wunsafe-loop-optimizations flag... yes
+checking if gcc -std=gnu99 supports -Wundef flag... yes
+checking if gcc -std=gnu99 supports -Wformat=2 flag... yes
+checking if gcc -std=gnu99 supports -Wlogical-op flag... yes
+checking if gcc -std=gnu99 supports -Wsign-compare flag... yes
+checking if gcc -std=gnu99 supports -Wpacked flag... yes
+checking if gcc -std=gnu99 supports -Wformat-security flag... yes
+checking if gcc -std=gnu99 supports -Wmissing-include-dirs flag... yes
+checking if gcc -std=gnu99 supports -Wformat-nonliteral flag... yes
+checking if gcc -std=gnu99 supports -Wold-style-definition flag... yes
+checking if gcc -std=gnu99 supports -Wpointer-arith flag... yes
+checking if gcc -std=gnu99 supports -Winit-self flag... yes
+checking if gcc -std=gnu99 supports -Wfloat-equal flag... yes
+checking if gcc -std=gnu99 supports -Wmissing-prototypes flag... yes
+checking if gcc -std=gnu99 supports -Wstrict-prototypes flag... yes
+checking if gcc -std=gnu99 supports -Wredundant-decls flag... yes
+checking if gcc -std=gnu99 supports -Wmissing-declarations flag... yes
+checking if gcc -std=gnu99 supports -Wmissing-noreturn flag... yes
+checking if gcc -std=gnu99 supports -Wshadow flag... yes
+checking if gcc -std=gnu99 supports -Wendif-labels flag... yes
+checking if gcc -std=gnu99 supports -Wstrict-aliasing=2 flag... yes
+checking if gcc -std=gnu99 supports -Wwrite-strings flag... yes
+checking if gcc -std=gnu99 supports -Wno-unused-parameter flag... yes
+checking if gcc -std=gnu99 supports -ffast-math flag... yes
+checking if gcc -std=gnu99 supports -Wp,-D_FORTIFY_SOURCE=2 flag... yes
+checking if gcc -std=gnu99 supports -fno-common flag... yes
+checking if gcc -std=gnu99 supports -fdiagnostics-show-option flag... yes
+checking build system type... armv7l-unknown-linux-gnueabi
+checking host system type... armv7l-unknown-linux-gnueabi
+checking target operating system... linux
+checking whether gcc -std=gnu99 knows __sync_bool_compare_and_swap()... yes
+checking whether we need libatomic_ops... no
+checking whether gcc -std=gnu99 knows __thread for Thread-Local Storage... yes
+checking whether gcc -std=gnu99 knows _Bool... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -std=gnu99... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert armv7l-unknown-linux-gnueabi file names to armv7l-unknown-linux-gnueabi format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabi file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for armv7l-unknown-linux-gnueabi-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for armv7l-unknown-linux-gnueabi-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for armv7l-unknown-linux-gnueabi-ar... no
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for armv7l-unknown-linux-gnueabi-strip... no
+checking for strip... strip
+checking for armv7l-unknown-linux-gnueabi-ranlib... no
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for armv7l-unknown-linux-gnueabi-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions... no
+checking for gcc -std=gnu99 option to produce PIC... -fPIC -DPIC
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works... yes
+checking if gcc -std=gnu99 static flag -static works... no
+checking if gcc -std=gnu99 supports -c -o file.o... yes
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+checking whether the gcc -std=gnu99 linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for armv7l-unknown-linux-gnueabi-pkg-config... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for PULSEAUDIO... yes
+checking for DROIDHEADERS... yes
+checking for HYBRIS... yes
+checking for DBUS... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_HDMI... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_HDMI_ARC... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_TELEPHONY_TX... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_LINE... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_SPDIF... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_AUX_LINE... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_SPEAKER_SAFE... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_FM... yes
+checking if droid headers have enum AUDIO_DEVICE_OUT_FM_TX... no
+checking if droid headers have enum AUDIO_DEVICE_OUT_ANC_HEADSET... no
+checking if droid headers have enum AUDIO_DEVICE_OUT_ANC_HEADPHONE... no
+checking if droid headers have enum AUDIO_DEVICE_OUT_PROXY... no
+checking if droid headers have enum AUDIO_DEVICE_OUT_IP... no
+checking if droid headers have enum AUDIO_DEVICE_IN_HDMI... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_TELEPHONY_RX... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_FM_TUNER... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_TV_TUNER... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_LINE... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_SPDIF... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_BLUETOOTH_A2DP... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_LOOPBACK... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_PROXY... no
+checking if droid headers have enum AUDIO_DEVICE_IN_FM_RX... no
+checking if droid headers have enum AUDIO_DEVICE_IN_FM_RX_A2DP... no
+checking if droid headers have enum AUDIO_DEVICE_IN_ALL_USB... yes
+checking if droid headers have enum AUDIO_DEVICE_IN_IP... no
+checking if droid headers have enum AUDIO_SOURCE_FM_TUNER... yes
+checking if droid headers have enum AUDIO_SOURCE_FM_RX... no
+checking if droid headers have enum AUDIO_SOURCE_FM_RX_A2DP... no
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_COMPRESS_OFFLOAD... yes
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_NON_BLOCKING... yes
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_HW_AV_SYNC... yes
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_VOIP_RX... no
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_INCALL_MUSIC... no
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_COMPRESS_PASSTHROUGH... no
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_TTS... no
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_RAW... no
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_SYNC... no
+checking if droid headers have enum AUDIO_OUTPUT_FLAG_IEC958_NONAUDIO... no
+checking if droid headers have enum AUDIO_INPUT_FLAG_NONE... yes
+checking if droid headers have enum AUDIO_INPUT_FLAG_FAST... yes
+checking if droid headers have enum AUDIO_INPUT_FLAG_HW_HOTWORD... yes
+checking if droid headers have enum AUDIO_INPUT_FLAG_RAW... no
+checking if droid headers have enum AUDIO_INPUT_FLAG_SYNC... no
+checking if droid headers have enum AUDIO_CHANNEL_OUT_SURROUND... no
+checking if droid headers have enum AUDIO_CHANNEL_OUT_5POINT1_BACK... yes
+checking if droid headers have enum AUDIO_CHANNEL_OUT_5POINT1_SIDE... yes
+checking if droid headers have enum AUDIO_CHANNEL_IN_VOICE_CALL_MONO... no
+checking if droid headers have enum AUDIO_FORMAT_PCM_OFFLOAD... yes
+checking if droid headers have enum AUDIO_FORMAT_FLAC... yes
+checking if droid headers have enum AUDIO_FORMAT_OPUS... yes
+checking If we are using hardfp tool chain... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/common/Makefile
+config.status: creating src/common/libdroid-util.pc
+config.status: creating src/droid/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+
+ ---{ pulseaudio-modules-droid 8.0.47 }---
+
+    compiler:               gcc -std=gnu99
+    CFLAGS:                 -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -Wall -W -Wextra -pedantic -pipe -Wno-long-long -Winline -Wvla -Wno-overlength-strings -Wunsafe-loop-optimizations -Wundef -Wformat=2 -Wlogical-op -Wsign-compare -Wpacked -Wformat-security -Wmissing-include-dirs -Wformat-nonliteral -Wold-style-definition -Wpointer-arith -Winit-self -Wfloat-equal -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wmissing-declarations -Wmissing-noreturn -Wshadow -Wendif-labels -Wstrict-aliasing=2 -Wwrite-strings -Wno-unused-parameter -ffast-math -Wp,-D_FORTIFY_SOURCE=2 -fno-common -fdiagnostics-show-option
+
+    prefix:                 /usr
+    PulseAudio prefix:      /usr
+    modules directory:      /usr/lib/pulse-8.0/modules
+
+    Droid device            wt88047
+    
++ make
+make  all-recursive
+make[1]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
+Making all in src
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+Making all in common
+make[3]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/common'
+  CC       libdroid_util_la-droid-util.lo
+In file included from /usr/lib/droid-devel/droid-headers/hardware/hardware.h:23:0,
+                 from /usr/lib/droid-devel/droid-headers/hardware/audio.h:30,
+                 from droid-util-audio.h:25,
+                 from droid-util.h:43,
+                 from droid-util.c:61:
+/usr/lib/droid-devel/droid-headers/cutils/native_handle.h:29:9: warning: ISO C forbids zero-size array 'data' [-pedantic]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:31:0,
+                 from droid-util-audio.h:25,
+                 from droid-util.h:43,
+                 from droid-util.c:61:
+/usr/lib/droid-devel/droid-headers/system/audio.h:271:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:302:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:359:47: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:646:50: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:726:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:727:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:728:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:729:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:730:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:731:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:732:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:734:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:735:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:736:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:737:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:738:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:739:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:740:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:741:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:743:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:745:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:747:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:749:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:750:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:751:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:757:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:759:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:784:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:785:32: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:866:12: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:867:9: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:868:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:869:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:870:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:871:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:872:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:873:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:874:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:875:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:876:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:877:19: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:894:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:895:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:896:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:897:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:898:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:899:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:900:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:901:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:902:15: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:903:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:904:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:905:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:906:18: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:907:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:909:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h: In function 'audio_device_address_to_parameter':
+/usr/lib/droid-devel/droid-headers/system/audio.h:1559:5: warning: variable length array 'param' is used [-Wvla]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:32:0,
+                 from droid-util-audio.h:25,
+                 from droid-util.h:43,
+                 from droid-util.c:61:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h: At top level:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h:786:6: warning: ISO C99 doesn't support unnamed structs/unions [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:1556:14: warning: 'audio_device_address_to_parameter' defined but not used [-Wunused-function]
+  CCLD     libdroid-util.la
+make[3]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/common'
+Making all in droid
+make[3]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid'
+  CC       libdroid_sink_la-droid-sink.lo
+In file included from /usr/lib/droid-devel/droid-headers/hardware/hardware.h:23:0,
+                 from /usr/lib/droid-devel/droid-headers/hardware/audio.h:30,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from droid-sink.h:44,
+                 from droid-sink.c:58:
+/usr/lib/droid-devel/droid-headers/cutils/native_handle.h:29:9: warning: ISO C forbids zero-size array 'data' [-pedantic]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:31:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from droid-sink.h:44,
+                 from droid-sink.c:58:
+/usr/lib/droid-devel/droid-headers/system/audio.h:271:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:302:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:359:47: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:646:50: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:726:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:727:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:728:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:729:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:730:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:731:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:732:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:734:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:735:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:736:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:737:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:738:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:739:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:740:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:741:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:743:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:745:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:747:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:749:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:750:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:751:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:757:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:759:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:784:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:785:32: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:866:12: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:867:9: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:868:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:869:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:870:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:871:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:872:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:873:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:874:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:875:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:876:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:877:19: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:894:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:895:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:896:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:897:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:898:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:899:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:900:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:901:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:902:15: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:903:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:904:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:905:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:906:18: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:907:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:909:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h: In function 'audio_device_address_to_parameter':
+/usr/lib/droid-devel/droid-headers/system/audio.h:1559:5: warning: variable length array 'param' is used [-Wvla]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:32:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from droid-sink.h:44,
+                 from droid-sink.c:58:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h: At top level:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h:786:6: warning: ISO C99 doesn't support unnamed structs/unions [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:1556:14: warning: 'audio_device_address_to_parameter' defined but not used [-Wunused-function]
+  CCLD     libdroid-sink.la
+  CC       libdroid_source_la-droid-source.lo
+In file included from /usr/lib/droid-devel/droid-headers/hardware/hardware.h:23:0,
+                 from /usr/lib/droid-devel/droid-headers/hardware/audio.h:30,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from droid-source.h:44,
+                 from droid-source.c:54:
+/usr/lib/droid-devel/droid-headers/cutils/native_handle.h:29:9: warning: ISO C forbids zero-size array 'data' [-pedantic]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:31:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from droid-source.h:44,
+                 from droid-source.c:54:
+/usr/lib/droid-devel/droid-headers/system/audio.h:271:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:302:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:359:47: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:646:50: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:726:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:727:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:728:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:729:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:730:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:731:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:732:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:734:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:735:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:736:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:737:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:738:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:739:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:740:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:741:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:743:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:745:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:747:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:749:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:750:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:751:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:757:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:759:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:784:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:785:32: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:866:12: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:867:9: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:868:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:869:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:870:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:871:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:872:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:873:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:874:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:875:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:876:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:877:19: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:894:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:895:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:896:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:897:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:898:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:899:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:900:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:901:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:902:15: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:903:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:904:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:905:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:906:18: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:907:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:909:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h: In function 'audio_device_address_to_parameter':
+/usr/lib/droid-devel/droid-headers/system/audio.h:1559:5: warning: variable length array 'param' is used [-Wvla]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:32:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from droid-source.h:44,
+                 from droid-source.c:54:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h: At top level:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h:786:6: warning: ISO C99 doesn't support unnamed structs/unions [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:1556:14: warning: 'audio_device_address_to_parameter' defined but not used [-Wunused-function]
+  CCLD     libdroid-source.la
+  CC       module_droid_keepalive_la-keepalive.lo
+  CC       module_droid_keepalive_la-module-droid-keepalive.lo
+  CCLD     module-droid-keepalive.la
+  CC       module_droid_sink_la-module-droid-sink.lo
+In file included from /usr/lib/droid-devel/droid-headers/hardware/hardware.h:23:0,
+                 from /usr/lib/droid-devel/droid-headers/hardware/audio.h:30,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-sink.c:40:
+/usr/lib/droid-devel/droid-headers/cutils/native_handle.h:29:9: warning: ISO C forbids zero-size array 'data' [-pedantic]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:31:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-sink.c:40:
+/usr/lib/droid-devel/droid-headers/system/audio.h:271:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:302:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:359:47: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:646:50: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:726:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:727:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:728:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:729:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:730:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:731:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:732:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:734:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:735:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:736:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:737:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:738:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:739:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:740:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:741:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:743:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:745:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:747:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:749:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:750:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:751:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:757:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:759:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:784:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:785:32: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:866:12: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:867:9: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:868:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:869:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:870:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:871:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:872:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:873:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:874:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:875:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:876:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:877:19: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:894:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:895:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:896:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:897:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:898:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:899:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:900:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:901:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:902:15: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:903:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:904:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:905:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:906:18: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:907:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:909:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h: In function 'audio_device_address_to_parameter':
+/usr/lib/droid-devel/droid-headers/system/audio.h:1559:5: warning: variable length array 'param' is used [-Wvla]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:32:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-sink.c:40:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h: At top level:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h:786:6: warning: ISO C99 doesn't support unnamed structs/unions [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:1556:14: warning: 'audio_device_address_to_parameter' defined but not used [-Wunused-function]
+  CCLD     module-droid-sink.la
+  CC       module_droid_source_la-module-droid-source.lo
+In file included from /usr/lib/droid-devel/droid-headers/hardware/hardware.h:23:0,
+                 from /usr/lib/droid-devel/droid-headers/hardware/audio.h:30,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-source.c:40:
+/usr/lib/droid-devel/droid-headers/cutils/native_handle.h:29:9: warning: ISO C forbids zero-size array 'data' [-pedantic]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:31:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-source.c:40:
+/usr/lib/droid-devel/droid-headers/system/audio.h:271:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:302:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:359:47: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:646:50: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:726:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:727:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:728:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:729:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:730:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:731:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:732:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:734:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:735:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:736:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:737:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:738:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:739:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:740:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:741:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:743:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:745:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:747:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:749:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:750:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:751:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:757:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:759:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:784:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:785:32: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:866:12: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:867:9: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:868:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:869:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:870:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:871:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:872:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:873:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:874:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:875:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:876:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:877:19: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:894:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:895:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:896:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:897:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:898:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:899:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:900:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:901:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:902:15: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:903:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:904:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:905:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:906:18: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:907:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:909:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h: In function 'audio_device_address_to_parameter':
+/usr/lib/droid-devel/droid-headers/system/audio.h:1559:5: warning: variable length array 'param' is used [-Wvla]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:32:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-source.c:40:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h: At top level:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h:786:6: warning: ISO C99 doesn't support unnamed structs/unions [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:1556:14: warning: 'audio_device_address_to_parameter' defined but not used [-Wunused-function]
+  CCLD     module-droid-source.la
+  CC       module_droid_card_la-module-droid-card.lo
+In file included from /usr/lib/droid-devel/droid-headers/hardware/hardware.h:23:0,
+                 from /usr/lib/droid-devel/droid-headers/hardware/audio.h:30,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-card.c:62:
+/usr/lib/droid-devel/droid-headers/cutils/native_handle.h:29:9: warning: ISO C forbids zero-size array 'data' [-pedantic]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:31:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-card.c:62:
+/usr/lib/droid-devel/droid-headers/system/audio.h:271:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:302:40: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:359:47: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:646:50: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:726:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:727:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:728:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:729:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:730:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:731:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:732:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:734:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:735:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:736:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:737:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:738:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:739:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:740:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:741:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:743:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:745:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:747:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:749:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:750:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:751:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:757:45: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:759:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:784:31: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:785:32: warning: ISO C restricts enumerator values to range of 'int' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:866:12: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:867:9: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:868:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:869:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:870:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:871:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:872:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:873:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:874:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:875:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:876:14: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:877:19: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:894:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:895:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:896:11: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:897:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:898:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:899:13: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:900:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:901:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:902:15: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:903:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:904:17: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:905:20: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:906:18: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:907:21: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:909:16: warning: obsolete use of designated initializer with ':' [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h: In function 'audio_device_address_to_parameter':
+/usr/lib/droid-devel/droid-headers/system/audio.h:1559:5: warning: variable length array 'param' is used [-Wvla]
+In file included from /usr/lib/droid-devel/droid-headers/hardware/audio.h:32:0,
+                 from ../../src/common/droid-util-audio.h:25,
+                 from ../../src/common/droid-util.h:43,
+                 from module-droid-card.c:62:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h: At top level:
+/usr/lib/droid-devel/droid-headers/hardware/audio_effect.h:786:6: warning: ISO C99 doesn't support unnamed structs/unions [-pedantic]
+/usr/lib/droid-devel/droid-headers/system/audio.h:1556:14: warning: 'audio_device_address_to_parameter' defined but not used [-Wunused-function]
+  CCLD     module-droid-card.la
+make[3]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid'
+make[3]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
+make[1]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.CFDgb6
++ umask 022
++ cd /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid
++ '[' /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot '!=' / ']'
++ rm -rf /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot
+++ dirname /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot
++ mkdir -p /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid
++ mkdir /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot
++ LANG=C
++ export LANG
++ unset DISPLAY
++ rm -rf /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot
++ /usr/bin/make DESTDIR=/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot INSTALL_ROOT=/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot install
+Making install in src
+make[1]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+Making install in common
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/common'
+make[3]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/common'
+ /bin/mkdir -p '/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libdroid-util.la '/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules'
+libtool: install: /usr/bin/install -c .libs/libdroid-util.so /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/libdroid-util.so
+libtool: install: /usr/bin/install -c .libs/libdroid-util.lai /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/libdroid-util.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/pulse-8.0/modules'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/common'
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/common'
+Making install in droid
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid'
+make[3]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid'
+ /bin/mkdir -p '/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libdroid-sink.la libdroid-source.la module-droid-keepalive.la module-droid-sink.la module-droid-source.la module-droid-card.la '/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules'
+libtool: warning: relinking 'libdroid-sink.la'
+libtool: install: (cd /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid; /bin/sh "/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/libtool"  --silent --tag CC --mode=relink gcc -std=gnu99 -DDROID_DEVICE_WT88047=1 -DDROID_DEVICE_STRING=\"wt88047\" -D_REENTRANT -D__INCLUDED_FROM_PULSE_AUDIO -DPA_DEFAULT_CONFIG_DIR=\"/etc/pulse\" -I/usr/lib/droid-devel/droid-headers -I/usr/lib/droid-devel/droid-headers -DPULSEAUDIO_VERSION=8 -I../../src/droid -I../../src/common -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -Wall -W -Wextra -pedantic -pipe -Wno-long-long -Winline -Wvla -Wno-overlength-strings -Wunsafe-loop-optimizations -Wundef -Wformat=2 -Wlogical-op -Wsign-compare -Wpacked -Wformat-security -Wmissing-include-dirs -Wformat-nonliteral -Wold-style-definition -Wpointer-arith -Winit-self -Wfloat-equal -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wmissing-declarations -Wmissing-noreturn -Wshadow -Wendif-labels -Wstrict-aliasing=2 -Wwrite-strings -Wno-unused-parameter -ffast-math -Wp,-D_FORTIFY_SOURCE=2 -fno-common -fdiagnostics-show-option -avoid-version -Wl,-z,noexecstack -lhybris-common -o libdroid-sink.la -rpath /usr/lib/pulse-8.0/modules libdroid_sink_la-droid-sink.lo -L/usr/lib/pulseaudio -L/usr/lib/pulse-8.0/modules -lpulsecore-8.0 -lpulsecommon-8.0 -lpulse -lhardware ../../src/common/libdroid-util.la -inst-prefix-dir /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot)
+libtool: install: /usr/bin/install -c .libs/libdroid-sink.soT /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/libdroid-sink.so
+libtool: install: /usr/bin/install -c .libs/libdroid-sink.lai /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/libdroid-sink.la
+libtool: warning: relinking 'libdroid-source.la'
+libtool: install: (cd /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid; /bin/sh "/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/libtool"  --silent --tag CC --mode=relink gcc -std=gnu99 -DDROID_DEVICE_WT88047=1 -DDROID_DEVICE_STRING=\"wt88047\" -D_REENTRANT -D__INCLUDED_FROM_PULSE_AUDIO -DPA_DEFAULT_CONFIG_DIR=\"/etc/pulse\" -I/usr/lib/droid-devel/droid-headers -I/usr/lib/droid-devel/droid-headers -DPULSEAUDIO_VERSION=8 -I../../src/droid -I../../src/common -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -Wall -W -Wextra -pedantic -pipe -Wno-long-long -Winline -Wvla -Wno-overlength-strings -Wunsafe-loop-optimizations -Wundef -Wformat=2 -Wlogical-op -Wsign-compare -Wpacked -Wformat-security -Wmissing-include-dirs -Wformat-nonliteral -Wold-style-definition -Wpointer-arith -Winit-self -Wfloat-equal -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wmissing-declarations -Wmissing-noreturn -Wshadow -Wendif-labels -Wstrict-aliasing=2 -Wwrite-strings -Wno-unused-parameter -ffast-math -Wp,-D_FORTIFY_SOURCE=2 -fno-common -fdiagnostics-show-option -avoid-version -Wl,-z,noexecstack -lhybris-common -o libdroid-source.la -rpath /usr/lib/pulse-8.0/modules libdroid_source_la-droid-source.lo -L/usr/lib/pulseaudio -L/usr/lib/pulse-8.0/modules -lpulsecore-8.0 -lpulsecommon-8.0 -lpulse -lhardware ../../src/common/libdroid-util.la -inst-prefix-dir /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot)
+libtool: install: /usr/bin/install -c .libs/libdroid-source.soT /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/libdroid-source.so
+libtool: install: /usr/bin/install -c .libs/libdroid-source.lai /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/libdroid-source.la
+libtool: install: /usr/bin/install -c .libs/module-droid-keepalive.so /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-keepalive.so
+libtool: install: /usr/bin/install -c .libs/module-droid-keepalive.lai /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-keepalive.la
+libtool: warning: relinking 'module-droid-sink.la'
+libtool: install: (cd /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid; /bin/sh "/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/libtool"  --silent --tag CC --mode=relink gcc -std=gnu99 -DDROID_DEVICE_WT88047=1 -DDROID_DEVICE_STRING=\"wt88047\" -D_REENTRANT -D__INCLUDED_FROM_PULSE_AUDIO -DPA_DEFAULT_CONFIG_DIR=\"/etc/pulse\" -I/usr/lib/droid-devel/droid-headers -I/usr/lib/droid-devel/droid-headers -DPULSEAUDIO_VERSION=8 -I../../src/droid -I../../src/common -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -Wall -W -Wextra -pedantic -pipe -Wno-long-long -Winline -Wvla -Wno-overlength-strings -Wunsafe-loop-optimizations -Wundef -Wformat=2 -Wlogical-op -Wsign-compare -Wpacked -Wformat-security -Wmissing-include-dirs -Wformat-nonliteral -Wold-style-definition -Wpointer-arith -Winit-self -Wfloat-equal -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wmissing-declarations -Wmissing-noreturn -Wshadow -Wendif-labels -Wstrict-aliasing=2 -Wwrite-strings -Wno-unused-parameter -ffast-math -Wp,-D_FORTIFY_SOURCE=2 -fno-common -fdiagnostics-show-option -module -avoid-version -Wl,-z,noexecstack -lhybris-common -o module-droid-sink.la -rpath /usr/lib/pulse-8.0/modules module_droid_sink_la-module-droid-sink.lo -L/usr/lib/pulseaudio -L/usr/lib/pulse-8.0/modules -lpulsecore-8.0 -lpulsecommon-8.0 -lpulse -lhardware -lm libdroid-sink.la -inst-prefix-dir /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot)
+libtool: install: /usr/bin/install -c .libs/module-droid-sink.soT /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-sink.so
+libtool: install: /usr/bin/install -c .libs/module-droid-sink.lai /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-sink.la
+libtool: warning: relinking 'module-droid-source.la'
+libtool: install: (cd /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid; /bin/sh "/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/libtool"  --silent --tag CC --mode=relink gcc -std=gnu99 -DDROID_DEVICE_WT88047=1 -DDROID_DEVICE_STRING=\"wt88047\" -D_REENTRANT -D__INCLUDED_FROM_PULSE_AUDIO -DPA_DEFAULT_CONFIG_DIR=\"/etc/pulse\" -I/usr/lib/droid-devel/droid-headers -I/usr/lib/droid-devel/droid-headers -DPULSEAUDIO_VERSION=8 -I../../src/droid -I../../src/common -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -Wall -W -Wextra -pedantic -pipe -Wno-long-long -Winline -Wvla -Wno-overlength-strings -Wunsafe-loop-optimizations -Wundef -Wformat=2 -Wlogical-op -Wsign-compare -Wpacked -Wformat-security -Wmissing-include-dirs -Wformat-nonliteral -Wold-style-definition -Wpointer-arith -Winit-self -Wfloat-equal -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wmissing-declarations -Wmissing-noreturn -Wshadow -Wendif-labels -Wstrict-aliasing=2 -Wwrite-strings -Wno-unused-parameter -ffast-math -Wp,-D_FORTIFY_SOURCE=2 -fno-common -fdiagnostics-show-option -module -avoid-version -Wl,-z,noexecstack -lhybris-common -o module-droid-source.la -rpath /usr/lib/pulse-8.0/modules module_droid_source_la-module-droid-source.lo -L/usr/lib/pulseaudio -L/usr/lib/pulse-8.0/modules -lpulsecore-8.0 -lpulsecommon-8.0 -lpulse -lhardware -lm libdroid-source.la -inst-prefix-dir /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot)
+libtool: install: /usr/bin/install -c .libs/module-droid-source.soT /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-source.so
+libtool: install: /usr/bin/install -c .libs/module-droid-source.lai /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-source.la
+libtool: warning: relinking 'module-droid-card.la'
+libtool: install: (cd /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid; /bin/sh "/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/libtool"  --silent --tag CC --mode=relink gcc -std=gnu99 -DDROID_DEVICE_WT88047=1 -DDROID_DEVICE_STRING=\"wt88047\" -D_REENTRANT -D__INCLUDED_FROM_PULSE_AUDIO -DPA_DEFAULT_CONFIG_DIR=\"/etc/pulse\" -I/usr/lib/droid-devel/droid-headers -I/usr/lib/droid-devel/droid-headers -DPULSEAUDIO_VERSION=8 -I../../src/droid -I../../src/common -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -Wformat -Wformat-security -fmessage-length=0 -march=armv7-a -mfloat-abi=hard -mfpu=neon -mthumb -Wno-psabi -Wall -W -Wextra -pedantic -pipe -Wno-long-long -Winline -Wvla -Wno-overlength-strings -Wunsafe-loop-optimizations -Wundef -Wformat=2 -Wlogical-op -Wsign-compare -Wpacked -Wformat-security -Wmissing-include-dirs -Wformat-nonliteral -Wold-style-definition -Wpointer-arith -Winit-self -Wfloat-equal -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wmissing-declarations -Wmissing-noreturn -Wshadow -Wendif-labels -Wstrict-aliasing=2 -Wwrite-strings -Wno-unused-parameter -ffast-math -Wp,-D_FORTIFY_SOURCE=2 -fno-common -fdiagnostics-show-option -module -avoid-version -Wl,-z,noexecstack -lhybris-common -o module-droid-card.la -rpath /usr/lib/pulse-8.0/modules module_droid_card_la-module-droid-card.lo -L/usr/lib/pulseaudio -L/usr/lib/pulse-8.0/modules -lpulsecore-8.0 -lpulsecommon-8.0 -lpulse -lhardware -lm libdroid-sink.la libdroid-source.la ../../src/common/libdroid-util.la -inst-prefix-dir /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot)
+libtool: install: /usr/bin/install -c .libs/module-droid-card.soT /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-card.so
+libtool: install: /usr/bin/install -c .libs/module-droid-card.lai /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/lib/pulse-8.0/modules/module-droid-card.la
+libtool: warning: remember to run 'libtool --finish /usr/lib/pulse-8.0/modules'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid'
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src/droid'
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[3]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[1]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/src'
+make[1]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
+make[2]: Entering directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
+make[1]: Leaving directory `/home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid'
++ rm -f /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot/usr/share/info/dir
++ find /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot -regex '.*\.la$'
++ xargs rm -f --
++ find /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot -regex '.*\.a$'
++ xargs rm -f --
++ install -d /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot//usr/include/pulsecore/modules/droid
++ install -m 644 src/common/droid-util-41qc.h src/common/droid-util-audio.h src/common/droid-util.h /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot//usr/include/pulsecore/modules/droid
++ install -d /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot//usr/lib/pkgconfig
++ install -m 644 src/common/libdroid-util.pc /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot//usr/lib/pkgconfig
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/meego/brp-compress
++ /usr/lib/rpm/meego/brp-strip /usr/bin/strip
++ /usr/lib/rpm/meego/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/meego/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/brp-python-bytecompile
++ /usr/lib/rpm/meego/brp-python-hardlink
++ /usr/lib/rpm/meego/find-docs.sh /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot
++ /usr/lib/rpm/meego/brp-java-repack-jars
+Processing files: pulseaudio-modules-droid-8.0.47-1.armv7hl
+Provides: libdroid-sink.so libdroid-source.so module-droid-card.so module-droid-keepalive.so module-droid-sink.so module-droid-source.so
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: libc.so.6 libc.so.6(GLIBC_2.4) libdbus-1.so.3 libdbus-1.so.3(LIBDBUS_1_3) libdroid-sink.so libdroid-source.so libdroid-util.so libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libhardware.so.2 libhybris-common.so.1 libm.so.6 libpulse.so.0 libpulsecommon-8.0.so libpulsecore-8.0.so rtld(GNU_HASH)
+Processing files: pulseaudio-modules-droid-common-8.0.47-1.armv7hl
+Provides: libdroid-util.so
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libhardware.so.2 libhybris-common.so.1 libpulse.so.0 libpulsecommon-8.0.so libpulsecore-8.0.so rtld(GNU_HASH)
+Processing files: pulseaudio-modules-droid-devel-8.0.47-1.armv7hl
+Provides: pkgconfig(libdroid-util) = 8.0.47
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /usr/bin/pkg-config
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/installroot
+warning: Could not canonicalize hostname: neerad-Satellite-L850
+Wrote: /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/RPMS/pulseaudio-modules-droid-8.0.47-1.armv7hl.rpm
+Wrote: /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/RPMS/pulseaudio-modules-droid-common-8.0.47-1.armv7hl.rpm
+Wrote: /home/neerad/mer/android/droid/hybris/mw/pulseaudio-modules-droid/RPMS/pulseaudio-modules-droid-devel-8.0.47-1.armv7hl.rpm
+Spawning worker 0 with 44 pkgs
+Workers Finished
+Gathering worker results
+
+Saving Primary metadata
+Saving file lists metadata
+Saving other metadata
+Generating sqlite DBs
+Sqlite DBs complete
+connman not AVAILABLE 
+DBus call failed, falling back to libssu
+Loading repository data...
+Reading installed packages...
+Forcing installation of 'pulseaudio-modules-droid-common-8.0.47-1.armv7hl' from repository 'Plain RPM files cache'.
+There is an update candidate 'pulseaudio-modules-droid-common-8.0.51-10.4.3.jolla.armv7hl' for 'pulseaudio-modules-droid-common-8.0.47-1.armv7hl', but it does not match specified version, architecture, or repository.
+There is an update candidate for 'pulseaudio-modules-droid-common', but it is from different vendor. Use 'zypper install pulseaudio-modules-droid-common-8.0.51-10.4.3.jolla.armv7hl' to install this candidate.
+Forcing installation of 'pulseaudio-modules-droid-devel-8.0.47-1.armv7hl' from repository 'Plain RPM files cache'.
+There is an update candidate 'pulseaudio-modules-droid-devel-8.0.51-10.4.3.jolla.armv7hl' for 'pulseaudio-modules-droid-devel-8.0.47-1.armv7hl', but it does not match specified version, architecture, or repository.
+There is an update candidate for 'pulseaudio-modules-droid-devel', but it is from different vendor. Use 'zypper install pulseaudio-modules-droid-devel-8.0.51-10.4.3.jolla.armv7hl' to install this candidate.
+Forcing installation of 'pulseaudio-modules-droid-8.0.47-1.armv7hl' from repository 'Plain RPM files cache'.
+There is an update candidate 'pulseaudio-modules-droid-8.0.51-10.4.3.jolla.armv7hl' for 'pulseaudio-modules-droid-8.0.47-1.armv7hl', but it does not match specified version, architecture, or repository.
+There is an update candidate for 'pulseaudio-modules-droid', but it is from different vendor. Use 'zypper install pulseaudio-modules-droid-8.0.51-10.4.3.jolla.armv7hl' to install this candidate.
+Resolving package dependencies...
+
+The following packages are going to be reinstalled:
+  pulseaudio-modules-droid pulseaudio-modules-droid-common pulseaudio-modules-droid-devel 
+
+3 packages to reinstall.
+Overall download size: 197.7 KiB. No additional space will be used or freed after the operation.
+Continue? [y/n/?] (y): y
+Retrieving package pulseaudio-modules-droid-common-8.0.47-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        (1/3),  60.8 KiB (167.6 KiB unpacked)
+Retrieving package pulseaudio-modules-droid-devel-8.0.47-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (2/3),  10.4 KiB ( 56.7 KiB unpacked)
+Retrieving package pulseaudio-modules-droid-8.0.47-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               (3/3), 126.6 KiB (546.2 KiB unpacked)
+Retrieving package pulseaudio-modules-droid-common-8.0.47-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        (1/3),  60.8 KiB (167.6 KiB unpacked)
+Installing: pulseaudio-modules-droid-common-8.0.47-1 [.....done]
+Retrieving package pulseaudio-modules-droid-devel-8.0.47-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (2/3),  10.4 KiB ( 56.7 KiB unpacked)
+Installing: pulseaudio-modules-droid-devel-8.0.47-1 [.....done]
+Retrieving package pulseaudio-modules-droid-8.0.47-1.armv7hl                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               (3/3), 126.6 KiB (546.2 KiB unpacked)
+Installing: pulseaudio-modules-droid-8.0.47-1 [......done]
